@@ -2,10 +2,10 @@
 
 :root {
     --card-color: #fff;
-    --card-button-color: #34AF6D;
-    --card-button-hover-color: #4AD489;
-    --table-color: #4AD489;
-    --table-field-color: #34AF6D;
+    --card-button-color: #0957A8;
+    --card-button-hover-color: #0957A8;
+    --table-color: #51A4F1;
+    --table-field-color: #0957A8;
 }
 .data-manipulation {
     display: flex;
@@ -20,12 +20,16 @@
     margin-top: 25px;   
     padding: 0px 15px 0px 20px;
     border-radius: 30px;
-    border: 1.5px solid #78d98f;
+    border: 1.5px solid #0957A8;
+}
+.fa-plus{
+    margin-right:4px;
 }
 .add:hover{
     cursor: pointer;
-    background: #78d98f;
+    background: #0957A8;
     transition: all ease 0.3s;
+    color:white;
 }
 .search-box{
     height: 50px;
@@ -34,7 +38,7 @@
     margin-top: 25px;
     padding: 0px 5px 0px 20px;
     border-radius: 30px;
-    border-color: #78d98f;
+    border-color: #0957A8;
     border-width: 1.5px;    
     border-style: solid;
 }
@@ -55,7 +59,7 @@
     width:220px;
     height: 40px;
     border-radius: 30px;
-    background-color: #4eb060;
+    background-color: #0957A8;
     border: none;
     color: #ffffff;
     outline: none;
@@ -63,7 +67,7 @@
     transition: all ease 0.3s;
 }
 .search-box .search-btn:hover{
-    background-color: #5ccf71;
+    background-color: #51A4F1;
     transition: all ease 0.3s;
 }
 
