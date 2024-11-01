@@ -1,7 +1,7 @@
 :root {
-    --nav-bar-color: #34AF6D;
+    --nav-bar-color: #0957A8;
     --nav-item-color: white;
-    --button-color: #4AD489;
+    --button-color: #0957A8;
 }
 
 * {
@@ -16,7 +16,7 @@ html{
 
 .banner {
     width: 100%;
-    height: 120%;
+    height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(/images/backgr.jpg);
     background-size: cover;
     background-position: center;
@@ -59,6 +59,7 @@ html{
     color: var(--nav-item-color);
     text-decoration: none;
 }
+
 
 .navbar ul li {
     list-style: none;
@@ -148,13 +149,12 @@ button:hover {
 
 .more-info {
     display: grid;
-    grid-template-columns: 800px 600px;
-    width: 97.35%;
+    grid-template-columns: 800px 700px;
+    width: 100%;
     position: absolute;
-    top: 103%;
+    top: 100%;
     text-align: left;  
     color: #fff;
     background-color: var(--nav-bar-color);
-    padding: 20px;
-    padding-bottom: 30px;
+    padding: 30px 0 30px 0;
 }
