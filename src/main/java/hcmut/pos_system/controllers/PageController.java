@@ -18,19 +18,9 @@ public class PageController {
         return "homePage";
     }
 
-    @RequestMapping("/login")
-    public String login(){
-        return "login";
-    }
-
     @RequestMapping("/about")
     public String about(){
         return "about";
-    }
-
-    @RequestMapping("/userProfile")
-    public String userProfile(){
-        return "userProfile";
     }
 
     @Controller
